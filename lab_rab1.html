@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Работа №1</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<!-- Верхняя часть сайта --> 
+<p class="logo"><img src="img/logo.png" alt="Логотип"/></p>
+
+<!-- Меню сайта -->
+<ul class="menu" style="float:left;">
+<li><a href="index.html">Главная</a></li>
+<li><a href="rabota.html">Работа №1</a></li>
+</ul>
+
+<div class="table-structure">
+<h2 style="text-align:center;">Табличная структура</h2>
+
+<table class="table">
+
+<tr>
+<td style="background-color:blue;"></td>
+<td colspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+</tr>
+
+<tr>
+<td rowspan="3"></td>
+<td rowspan="3" colspan="2"></td>
+</tr>	
+
+<tr>
+<td style="background-color:red;"></td>
+<td></td>
+</tr>
+
+<tr>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+</tr>	
+
+<tr>
+<td colspan="2"></td>
+<td style="background-color:green;"></td>
+</tr>	
+
+<tr>
+<td rowspan="2" colspan="2"></td>
+<td rowspan="2"></td>
+</tr>	
+
+<tr>
+<td colspan="2" style="background-color:yellow;"></td>
+</tr>										
+</table>
+</div>
+	
+<div class="order">				
+<h2>Форма заказа услуги в туристическом агентстве</h2>
+		
+  <div class="field-block">
+<label for="name">Ваше имя:</label>
+<input id="name" class="field" name="name" required type="text" placeholder="Иванов Иван Иванович">
+  </div>
+
+  <div class="field-block">
+<label for="age">Дата рождения:</label>
+<input id="age" class="field" name="age" required type="date">
+  </div>
+
+  <div class="field-block">
+<label for="date">Желаемая дата вылета:</label>
+<input id="date" class="field" name="date" required type="date">
+  </div>
+
+  <div class="field-block">
+<label for="value">Количество ночей:</label>
+<input id="value" class="field" name="value" required type="text" placeholder="7">
+  </div>
+
+  <div class="field-block">
+<label for="country">Страна:</label>
+<input id="country" class="field" name="country" required type="text" placeholder="Турция">
+  </div>
+			
+  <div class="field-block">
+<label for="email">Ваш E-mail:</label>
+<input id="email" class="field" name="email" required type="email" placeholder="ivanov@email.com">
+  </div>
+
+  <div class="field-block">
+<label for="phone">Ваш телефон:</label>
+<input id="phone" class="field" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
+  </div>
+
+  <div class="field-block">
+<label for="message">Текст сообщения:</label>
+<textarea id="message" class="field" required name="message" rows="4"></textarea>
+  </div>
+
+  <div class="field-block">
+<input id="check" name="check" checked type="checkbox">
+<span class="check-text">Я добровольно отправляю свои данные</span>
+  </div>
+
+<button id="button" class="button" type="submit">Отправить</button>	
+
+</div>
+
+
+</body>
+
+</html>
